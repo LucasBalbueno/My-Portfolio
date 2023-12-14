@@ -1,0 +1,53 @@
+.cabecalho__tarja {
+    text-align: center;
+    background-color: var(--cor-amarelo);
+    box-shadow: 0px 15px 6px 0px rgba(0, 0, 0, 0.20);
+}
+
+.tarja__texto {
+    color: var(--cor-branco);
+    font-weight: var(--montserrat-bold);
+    font-size: 13px;
+    padding: .4rem;
+}
+
+.menu__lista {
+    display: flex;
+    align-items: center;
+    padding: 3rem 7rem;
+}
+
+.lista__link {
+    font-family: var(--fonte-krona);
+    color: var(--cor-branco);
+    font-size: 17px;
+    margin-right: 2.5rem;
+}
+
+.lista__link:hover {
+    color: var(--cor-amarelo);
+    transition: .5s ease;
+}
+
+.lista__link-projects {
+    font-family: var(--fonte-krona);
+    color: var(--cor-amarelo);
+    border: 2px solid var(--cor-amarelo);
+    border-radius: 50px;
+    padding: .5rem 1rem;
+    font-size: 17px;
+    position: relative;
+}
+
+.lista__link-projects:hover {
+    color: var(--cor-branco);
+    background-color: var(--cor-amarelo);
+    transition: .7s ease;
+}
+
+.lista__divisoria {
+    background-color: var(--cor-amarelo);
+    width: 4px;
+    height: 40px;
+    margin-right: 2.5rem;
+}
