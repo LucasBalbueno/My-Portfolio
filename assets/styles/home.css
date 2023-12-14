@@ -1,0 +1,52 @@
+.container__principal {
+    height: 100vh;
+    display: flex;
+    padding: 1.2rem 7rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    /* BACKGROUND TECNOLOGY */
+    background-image: url(../imgs/Tecnology1.png);
+    background-repeat: no-repeat;
+    background-size: 60rem 20rem;
+    background-position-y: 14.5rem;
+}
+
+.principal__texto-principal {
+    text-align: end;
+}
+
+.texto-principal__subTitulo, .texto-principal__titulo {
+    font-weight: var(--montserrat-extraBold);
+    text-shadow: -9px 9px 10px rgba(0, 0, 0, 0.25);
+}
+
+.texto-principal__subTitulo {
+    font-size: 50px;
+}
+
+.texto-principal__titulo {
+    font-size: 80px;
+    color: var(--cor-amarelo);
+}
+
+.texto-principal__texto {
+    font-weight: var(--montserrat-medium);
+    font-size: 16px;
+}
+
+/* IMAGEM */
+
+.imagem__apresentacao {
+    font-family: var(--fonte-krona);
+    font-size: 17px;
+    margin: 0 0 1rem 2.5rem;
+}
+
+.apresentacao__destaque {
+    color: var(--cor-amarelo);
+}
+
+.imagem__grupo {
+    width: 22rem;
+}

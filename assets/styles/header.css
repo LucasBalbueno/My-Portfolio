@@ -20,7 +20,7 @@
 .lista__link {
     font-family: var(--fonte-krona);
     color: var(--cor-branco);
-    font-size: 17px;
+    font-size: 16px;
     margin-right: 2.5rem;
 }
 
@@ -35,19 +35,20 @@
     border: 2px solid var(--cor-amarelo);
     border-radius: 50px;
     padding: .5rem 1rem;
-    font-size: 17px;
+    font-size: 16px;
     position: relative;
 }
 
 .lista__link-projects:hover {
     color: var(--cor-branco);
     background-color: var(--cor-amarelo);
-    transition: .7s ease;
+    transition: .5s ease;
 }
 
 .lista__divisoria {
     background-color: var(--cor-amarelo);
-    width: 4px;
-    height: 40px;
+    width: 0.25rem;
+    height: 2.2rem;
     margin-right: 2.5rem;
+    border-radius: 50px;
 }
