@@ -103,11 +103,16 @@
     font-weight: var(--montserrat-semiBold);
 }
 
+.aboutme__more {
+    display: flex;
+    justify-content: space-between;
+}
+
 .infos__lista {
     display: flex;
     gap: .5rem;
     font-size: 17px;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 .lista__destaque {
@@ -116,4 +121,130 @@
 
 .lista__texto {
     font-style: italic;
+}
+
+.btn_download {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid var(--cor-amarelo);
+    padding-left: 1.7rem;
+    border-radius: 30px;
+    width: 14.5rem;
+    margin-top: 3rem;
+}
+
+
+.aboutme__download-texto {
+    font-family: var(--fonte-krona);
+    color: var(--cor-branco);
+    font-size: 18px;
+}
+
+.aboutme__download-icon {
+    width: 3rem;
+    height: 3rem;
+    background: var(--cor-amarelo);
+    border-radius: 30px;
+    background-image: url(../imgs/icons/DownloadIcon.svg);
+    background-size: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn_download:hover {
+    background-color: var(--cor-amarelo);
+    transition: .5s ease;
+}
+
+.btn_download:hover > .aboutme__download-icon {
+    background-color: var(--cor-branco);
+    background-image: url(../imgs/icons/DownloadIconHover.svg);
+    transition: .5s ease;
+}
+
+.statics {
+    border: 2px solid var(--cor-amarelo);
+    border-radius: 30px;
+    width: 10rem;
+    padding: 1.5rem 2rem;
+}
+
+.statics__number-plus {
+    display: flex;
+    align-items: flex-start;
+}
+
+.statics__number, .statics__plus {
+    font-family: var(--fonte-krona);
+    color: var(--cor-amarelo);
+}
+
+.statics__number {
+    font-size: 60px;
+}
+
+.statics__plus {
+    font-size: 40px;
+}
+
+.statics__divisoria {
+    background-color: var(--cor-branco);
+    width: 2.6rem;
+    height: .15rem;
+    margin: .7rem 0;
+}
+
+.statics__texto {
+    font-weight: var(--montserrat-regular);
+    font-size: 14px;
+    line-height: 1.3rem;
+}
+
+.statics1 {
+    position: absolute;
+    right: 23rem;
+}
+
+.statics2 {
+    position: absolute;
+    top: 80.5rem;
+    right: 10.5rem;
+}
+
+/* TENOLOGIAS */
+
+.aboutme__tecnologies {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 19rem;
+    align-items: center;
+}
+
+.tecnologies__titulo {
+    font-weight: var(--montserrat-extraBold);
+    margin-bottom: 2rem;
+    text-decoration:underline var(--cor-amarelo);
+}
+
+.tecnologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tenology {
+    text-align: center;
+    margin: 1.5rem 2.5rem;
+}
+
+.tecnology__img {
+    width: 4.5rem;
+}
+
+.tenology__name {
+    text-transform: uppercase;
+    font-weight: var(--montserrat-semiBold);
+    font-size: 17px;
+    margin-top: .5rem;
 }
