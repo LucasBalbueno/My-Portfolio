@@ -16,8 +16,8 @@
         <nav>
             <ul class="menu__lista">
                 <li><a class="lista__link" href="#">home</a></li>
-                <li><a class="lista__link" href="#">sobre mim</a></li>
-                <li><a class="lista__link" href="#">soluções</a></li>
+                <li><a class="lista__link" href="#aboutme">sobre mim</a></li>
+                <li><a class="lista__link" href="#solutions">soluções</a></li>
                 <li><a class="lista__link" href="#">contato</a></li>
                 <div class="lista__divisoria"></div>
                 <li><a class="lista__link-projects" href="#">projetos</a></li>
@@ -38,7 +38,7 @@
             </div>
         </section>
 
-        <section class="container__aboutme">
+        <section id="aboutme" class="container__aboutme">
             <div class="container__titulo">
                 <h1 class="titulo__fundo">resumo</h1>
                 <h2 class="titulo__frente">sobre <strong class="titulo__frente-destaque">mim</strong></h2>
@@ -93,15 +93,10 @@
                             <p class="lista__texto">balbuenolucas04@gmail.com</p>
                         </li>
                     </ul>
-                        <!-- <a class="aboutme__download">
-                            <p>Download</p>
-                            <div class="aboutme__download-icon"></div>
-                        </a> -->
-                        <a class="btn_download" href="#">
-                            <p class="aboutme__download-texto">Download CV</p>
-                            <div class="aboutme__download-icon"></div>
-                        </a>
-                    <!-- <img class="aboutme__download-Icon" src="./assets/imgs/icons/DownloadIcon.svg"> -->
+                    <a class="btn_download" href="#">
+                        <p class="aboutme__download-texto">Download CV</p>
+                        <div class="aboutme__download-icon"></div>
+                    </a>
                 </div>
 
                 <div class="aboutme-statics">
@@ -159,31 +154,47 @@
             </div>
         </section>
 
-        <section class="container__solutions">
+        <section id="solutions" class="container__solutions">
+
             <div class="container__titulo">
                 <h1 class="titulo__fundo">soluções</h1>
                 <h2 class="titulo__frente">Soluções <strong class="titulo__frente-destaque">criativas</strong></h2>
             </div>
+            <div class="solutions__subtitulo">
+                <a class="solution__subtitulo" href="#design">Design</a>
+                <a class="solution__subtitulo" href="#responsive">Responsividade</a>
+                <a class="solution__subtitulo" href="#animation">animações</a>
+            </div>
 
-            <div class="solution__tema">
+            <div id="design" class="solution__tema">
                 <img src="./assets/imgs/DesignImage.png">
                 <div class="tema__texto">
                     <h1 class="solutions__titulo-fundo">Design</h1>
                     <h2 class="solutions__titulo-frente">Design</h2>
-                    <p class="solutions__texto">Combinando criatividade vibrante com técnica refinada para conceber soluções visuais impactantes. Habilidade em transmitir mensagens de forma única eleva cada projeto a uma expressão autêntica de excelência no design. Desempenhando um papel crucial no desenvolvimento web, garantindo interfaces intuitivas e impactantes que impulsionam a eficácia e a experiência do usuário online.</p>
+                    <p class="solutions__texto">Combinando criatividade vibrante com técnica refinada para conceber
+                        soluções visuais impactantes. Habilidade em transmitir mensagens de forma única eleva cada
+                        projeto a uma expressão autêntica de excelência no design. Desempenhando um papel crucial no
+                        desenvolvimento web, garantindo interfaces intuitivas e impactantes que impulsionam a
+                        eficácia e
+                        a experiência do usuário online.</p>
                 </div>
             </div>
 
-            <div class="solution__tema tema__reponsividade">
+
+            <div id="responsive" class="solution__tema tema__reponsividade">
                 <img class="tema__image__responsividade" src="./assets/imgs/IphoneMockup.png">
                 <div class="tema__texto">
                     <h1 class="solutions__titulo-fundo">Responsividade</h1>
                     <h2 class="solutions__titulo-frente">Responsividade</h2>
-                    <p class="solutions__texto">Em um cenário digital de constante evolução, as habilidades de responsividade são fundamentais no front-end. Seu domínio permite que interfaces se adaptem fluidamente a diferentes dispositivos, proporcionando a experiência do usuário coesa e atraente. Não basta apenas escrever o código, mas criar pontes visuais que conectam efetivamente usuários ao conteúdo, independentemente do dispositivo que escolham utilizar.</p>
+                    <p class="solutions__texto">Em um cenário digital de constante evolução, as habilidades de
+                        responsividade são fundamentais no front-end. Seu domínio permite que interfaces se adaptem
+                        fluidamente a diferentes dispositivos, proporcionando a experiência do usuário coesa e atraente.
+                        Não basta apenas escrever o código, mas criar pontes visuais que conectam efetivamente usuários
+                        ao conteúdo, independentemente do dispositivo que escolham utilizar.</p>
                 </div>
             </div>
 
-            <div class="solution__tema">
+            <div id="animation" class="solution__tema">
                 <div class="tema__imagens">
                     <img class="tema__image__world" src="./assets/imgs/WorldGif.gif">
                     <img class="tema__image-quadrado" src="./assets/imgs/QuadradoAnimado.png">
@@ -191,7 +202,11 @@
                 <div class="tema__texto">
                     <h1 class="solutions__titulo-fundo">Animações</h1>
                     <h2 class="solutions__titulo-frente">Animações interativas</h2>
-                    <p class="solutions__texto">A incorporação de animações interativas traz vida ao site, destacando-se pela capacidade de adicionar dinamismo e envolvimento. As animações não são apenas elementos visuais, mas narrativas que transformam a experiência do usuário, tornando cada visita uma jornada cativante.  Essa abordagem inovadora não só enriquece a estética, mas também fortalece a conexão emocional.</p>
+                    <p class="solutions__texto">A incorporação de animações interativas traz vida ao site, destacando-se
+                        pela capacidade de adicionar dinamismo e envolvimento. As animações não são apenas elementos
+                        visuais, mas narrativas que transformam a experiência do usuário, tornando cada visita uma
+                        jornada cativante. Essa abordagem inovadora não só enriquece a estética, mas também fortalece a
+                        conexão emocional.</p>
                 </div>
             </div>
         </section>

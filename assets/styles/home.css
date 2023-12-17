@@ -52,7 +52,8 @@
 /* ABOUT ME */
 
 .container__aboutme {
-    padding: 0 10rem;
+    padding: 2.5rem 10rem 0 10rem;
+    height: 100vh;
 }
 
 .container__titulo {
@@ -76,7 +77,7 @@
 }
 
 .aboutme__texto__pincipal {
-    padding: 4rem 0;
+    padding: 2.5rem 0 2rem 0;
 }
 
 .titulo__frente, .titulo__frente-destaque {
@@ -89,9 +90,9 @@
 }
 
 .aboutme__texto, .aboutme__texto-destaque {
-    font-size: 17px;
+    font-size: 16px;
     text-align: justify;
-    line-height: 1.7rem;
+    line-height: 1.5rem;
 }
 
 .aboutme__texto {
@@ -106,13 +107,14 @@
 .aboutme__more {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .infos__lista {
     display: flex;
     gap: .5rem;
-    font-size: 17px;
-    margin: 1.5rem 0;
+    font-size: 15px;
+    margin: 1rem 0;
 }
 
 .lista__destaque {
@@ -130,15 +132,15 @@
     border: 3px solid var(--cor-amarelo);
     padding-left: 1.7rem;
     border-radius: 30px;
-    width: 14.5rem;
-    margin-top: 3rem;
+    width: 12.5rem;
+    margin-top: 2rem;
 }
 
 
 .aboutme__download-texto {
     font-family: var(--fonte-krona);
     color: var(--cor-branco);
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .aboutme__download-icon {
@@ -163,10 +165,17 @@
     transition: .5s ease;
 }
 
+.aboutme-statics {
+    display: flex;
+    gap: 4rem;
+    margin-right: 3.5rem;
+}
+
 .statics {
     border: 2px solid var(--cor-amarelo);
     border-radius: 30px;
     width: 10rem;
+    max-height: 8rem;
     padding: 1.5rem 2rem;
 }
 
@@ -201,24 +210,14 @@
     line-height: 1.3rem;
 }
 
-.statics1 {
-    position: absolute;
-    right: 23rem;
-}
-
-.statics2 {
-    position: absolute;
-    top: 80.5rem;
-    right: 10.5rem;
-}
-
 /* TENOLOGIAS */
 
 .aboutme__tecnologies {
     display: flex;
     flex-direction: column;
-    padding: 5rem 19rem;
+    padding: 0 19rem;
     align-items: center;
+    margin-bottom: 6rem;
 }
 
 .tecnologies__titulo {
@@ -252,14 +251,15 @@
 /* SOLUTIONS */
 
 .container__solutions {
-    padding: 0 10rem;
+    padding: 5rem 10rem 2.5rem 10rem;
 }
 
 .solution__tema {
     display: flex;
     align-items: center;
     gap: 7rem;
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 5rem 0;
 }
 
 .tema__texto {
@@ -283,6 +283,23 @@
     color: var(--cor-amarelo);
     position: absolute;
     top: .8rem;
+}
+
+.solutions__subtitulo {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.solution__subtitulo {
+    font-size: 17px;
+    color: var(--cor-branco);
+}
+
+.solution__subtitulo:hover {
+    color: var(--cor-amarelo);
+    transition: .5s ease;
 }
 
 .solutions__texto {
