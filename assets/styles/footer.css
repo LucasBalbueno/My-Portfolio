@@ -1,0 +1,19 @@
+.rodape {
+    display: flex;
+    border-top: 1px solid var(--cor-cinza);
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+}
+
+.rodape__texto {
+    font-size: 16px;
+    font-weight: var(--montserrat-medium);
+    color: var(--cor-cinza);
+    line-height: 1.5rem;
+}
+
+.rodape__midia {
+    width: 1.5rem;
+    margin-left: 1rem;
+}

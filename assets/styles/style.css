@@ -1,6 +1,7 @@
 @import url(./reset.css);
 @import url(./header.css);
 @import url(./home.css);
+@import url(./footer.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;500;600;700;800&display=swap');
 
@@ -9,6 +10,7 @@
     --cor-amarelo: #FFB400;
     --cor-fundo: #111111;
     --cor-branco: #FFFFFF;
+    --cor-cinza: #535353;
     --fonte-krona: 'Krona One', sans-serif;
     --fonte-montserrat: 'Montserrat', sans-serif;
     --montserrat-regular: 400;
@@ -16,6 +18,10 @@
     --montserrat-semiBold: 600;
     --montserrat-bold: 700;
     --montserrat-extraBold: 800;
+}
+
+* {
+    scroll-behavior: smooth;
 }
 
 body {
