@@ -9,8 +9,7 @@ const textLoad = () => {
     }, 4000);
     setTimeout(() => {
         text.textContent = "Designer";
-    }, 8000); //1s = 1000 milliseconds
+    }, 8000);
 }
 
-textLoad();
-setInterval(textLoad, 12000);
+export default textLoad;

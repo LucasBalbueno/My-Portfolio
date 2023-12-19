@@ -1,6 +1,6 @@
 var btn = document.querySelector(".button__projetcs");
 
-btn.onmousemove = function teste(e) {
+btn.onmousemove = function (e) {
     var x = e.pageX - btn.offsetLeft;
     var y = e.pageY - btn.offsetTop;
 

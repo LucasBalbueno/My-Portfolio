@@ -1,5 +1,3 @@
-/* ABOUT ME */
-
 .container__aboutme {
     padding: 2.5rem 10rem 0 10rem;
     height: 100vh;
@@ -158,8 +156,6 @@
     font-size: 14px;
     line-height: 1.3rem;
 }
-
-/* TENOLOGIAS */
 
 .aboutme__tecnologies {
     display: flex;
