@@ -8,7 +8,7 @@ const myObserver = new IntersectionObserver((entries) => {
     })
 })
 
-const elements = document.querySelectorAll('.hidden')
+const elements = document.querySelectorAll('.hiddenUp, .hiddenUp2, .hiddenDown, .hiddenLeft, .hiddenLeft2, .hiddenRight, .hiddenRight2')
 
 elements.forEach((element) => myObserver.observe(element))
 
