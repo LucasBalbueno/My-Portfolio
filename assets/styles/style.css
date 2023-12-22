@@ -3,6 +3,7 @@
 @import url(./home.css);
 @import url(./aboutme.css);
 @import url(./solutions.css);
+@import url(./contact.css);
 @import url(./footer.css);
 
 @import url(./projects.css);
@@ -18,6 +19,7 @@
     --cor-fundo: #111111;
     --cor-branco: #FFFFFF;
     --cor-cinza: #535353;
+    --cor-amareloHover: #ffc337;
     --fonte-krona: 'Krona One', sans-serif;
     --fonte-montserrat: 'Montserrat', sans-serif;
     --montserrat-regular: 400;
