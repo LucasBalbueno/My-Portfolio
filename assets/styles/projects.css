@@ -4,6 +4,16 @@
     align-items: center;
     padding: 1rem;
     margin-bottom: 7rem;
+    position: relative;
+}
+
+.menu__lista-projects {
+    position: absolute;
+    z-index: 1;
+}
+
+.divisoria-projects {
+    margin-left: 3rem;
 }
 
 .container__image {
@@ -33,6 +43,25 @@
     color: var(--cor-amarelo);
 }
 
+.projects__instructions {
+    position: absolute;
+    display: flex;
+    bottom: 6rem;
+    right: 6rem
+}
+
+.projects__arrow {
+    width: 3rem;
+    transform: rotate(-90deg);
+}
+
+.projects__rabisco {
+    font-family: var(--fonte-rabisco);
+    color: var(--cor-branco);
+    font-size: 20px;
+    margin: .5rem 0 0 1rem;
+}
+
 .title__projects {
     padding: 4rem 0;
 }
@@ -44,8 +73,8 @@
 }
 
 .projects__card {
-    width: 20rem;
-    height: 30rem;
+    width: 17rem;
+    height: 25rem;
     background-color: var(--cor-amarelo);
     border-radius: 30px;
 }

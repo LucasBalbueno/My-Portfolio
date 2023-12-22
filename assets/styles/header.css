@@ -17,10 +17,6 @@
     padding: 3rem 7rem;
 }
 
-.menu__lista-projects {
-    position: absolute;
-}
-
 .lista__link {
     font-family: var(--fonte-krona);
     color: var(--cor-branco);

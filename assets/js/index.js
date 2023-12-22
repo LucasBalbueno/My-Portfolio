@@ -7,6 +7,6 @@ textLoad()
 setInterval(textLoad, 12000);
 
 VanillaTilt.init(document.querySelectorAll("#div3dEffect"), {
-    max: 20,
+    max: 23,
     speed: 300,
 });

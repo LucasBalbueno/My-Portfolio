@@ -83,3 +83,15 @@
     position: absolute;
     z-index: 11;
 }
+
+.animations__arrow {
+    margin-top: 3rem;
+    width: 4rem;
+}
+
+.animations__rabisco {
+    font-family: var(--fonte-rabisco);
+    color: var(--cor-branco);
+    font-size: 20px;
+    margin: 1rem 0 0 2rem;
+}

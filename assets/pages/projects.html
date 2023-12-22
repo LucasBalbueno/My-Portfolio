@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetos Lucas</title>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <nav>
-            <ul class="menu__lista menu__lista-projects">
+            <ul class="menu__lista  menu__lista-projects">
                 <a class="button__projetcs" href="/index.html"><span>home</span></a>
+                <div class="lista__divisoria divisoria-projects"></div>
+                <a class="lista__link" href="#principais">Principais</a>
+                <li><a class="lista__link" href="#extras">Extras</a></li>
             </ul>
         </nav>
     </header>
@@ -23,9 +28,13 @@
                 <h1 class="titulo__menor">CADA <strong class="titulo__maior">DETALHE</strong></h1>
             </div>
             <img class="container__image hiddenLeft" src="../imgs/tenologyChao.png">
+            <div class="projects__instructions">
+                <img class="projects__arrow" src="../imgs/SetaBranca.png">
+                <p class="projects__rabisco">Role para baixo</p>
+            </div>
         </div>
 
-        <div class="container__projects-principais">
+        <div id="principais" class="container__projects-principais">
             <div class="container__titulo title__projects hiddenLeft">
                 <h1 class="titulo__fundo">projetos</h1>
                 <h2 class="titulo__frente"><strong class="titulo__frente-destaque">Principais</strong></h2>
@@ -38,16 +47,16 @@
             </div>
         </div>
 
-        <div class="container__projects-extras">
+        <div id="extras" class="container__projects-extras">
             <div class="container__titulo title__projects hiddenLeft">
                 <h1 class="titulo__fundo">projetos</h1>
                 <h2 class="titulo__frente"><strong class="titulo__frente-destaque">Extras</strong></h2>
             </div>
 
             <div class="projects__cards">
-                <div class="projects__card hiddenDown3"></div>
-                <div class="projects__card hiddenDown2"></div>
-                <div class="projects__card hiddenDown"></div>
+                <div class="projects__card hiddenUp3"></div>
+                <div class="projects__card hiddenUp2"></div>
+                <div class="projects__card hiddenUp"></div>
             </div>
         </div>
     </main>
@@ -55,7 +64,9 @@
     <footer class="rodape">
         <div class="rodape__textos">
             <p class="rodape__texto">Desenvolvido por Lucas Balbueno Vicêncio</p>
-            <a href="mailto:balbuenolucas04@gmail.com"><p class="rodape__texto">balbuenolucas04@gmail.com</p></a>
+            <a href="mailto:balbuenolucas04@gmail.com">
+                <p class="rodape__texto">balbuenolucas04@gmail.com</p>
+            </a>
         </div>
         <div class="rodape__midias">
             <a href="https://www.linkedin.com/in/lucasbalbuenovicencio/" target="_blank">
@@ -69,4 +80,5 @@
 
     <script type="module" src="../js/index.js"></script>
 </body>
+
 </html>
