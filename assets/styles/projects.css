@@ -62,8 +62,12 @@
     margin: .5rem 0 0 1rem;
 }
 
+.container__projects-cards {
+    margin-bottom: 2.5rem;
+}
+
 .title__projects {
-    padding: 4rem 0;
+    padding: 3rem 0;
 }
 
 .projects__cards {
@@ -73,8 +77,111 @@
 }
 
 .projects__card {
-    width: 17rem;
-    height: 25rem;
-    background-color: var(--cor-amarelo);
+    width: 21rem;
+    background-color: var(--cor-cinza);
     border-radius: 30px;
+    overflow: hidden;
+}
+
+.texto__categoria {
+    font-weight: var(--montserrat-medium);
+    letter-spacing: .2em;
+    font-size: 11px;
+    padding: 1rem 0 0 1.5rem;
+    color: var(--cor-amarelo);
+}
+
+.texto__titulo {
+    font-weight: var(--montserrat-semiBold);
+    padding: .7rem 0 .7rem 1.5rem;
+    font-size: 22px;
+}
+
+.texto__descricao {
+    font-size: 14px;
+    padding: 0 1.5rem;
+    line-height: 1.2rem;
+}
+
+.card__botoes {
+    display: flex;
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+    gap: .6rem;
+}
+
+.botoes__git {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-amarelo);
+    padding: .5rem;
+    border-radius: 10px;
+    margin-left: 1.5rem;
+    width: 6.5rem;
+}
+
+.git__icon {
+    width: 1.5rem;
+}
+
+.git__texto {
+    font-weight: var(--montserrat-medium);
+    font-size: 17px;
+    margin-left: .5rem;
+    color: var(--cor-branco);
+}
+
+.botoes__git:hover {
+    background-color: var(--cor-fundo);
+    transition: .5s ease;
+}
+
+.botoes__live {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-branco);
+    padding: .5rem;
+    border-radius: 10px;
+    width: 1.7rem;
+}
+
+.live__icon {
+    width: 1.5rem;
+}
+
+.botoes__live:hover {
+    background-color: var(--cor-fundo);
+    transition: .5s ease;
+}
+
+.card__image {
+    height: 12rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.pokedex {
+    background-image: url(../imgs/projects/PokedexBG.jpg);
+}
+
+.academy {
+    background-image: url(../imgs/projects/FitBG.jpg);
+}
+
+.listaCompras {
+    background-image: url(../imgs/projects/ListaBG.jpg);
+}
+
+.QRcode {
+    background-image: url(../imgs/projects/QRcodeBG.jpg);
+}
+
+.login {
+    background-image: url(../imgs/projects/LoginBG.jpg);
+}
+
+.galeria {
+    background-image: url(../imgs/projects/GaleriaBG.jpeg);
 }
