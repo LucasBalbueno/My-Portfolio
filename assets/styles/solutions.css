@@ -92,6 +92,6 @@
 .animations__rabisco {
     font-family: var(--fonte-rabisco);
     color: var(--cor-branco);
-    font-size: 20px;
+    font-size: 25px;
     margin: 1rem 0 0 2rem;
 }

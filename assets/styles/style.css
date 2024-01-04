@@ -11,12 +11,7 @@
 @import url(./animations/observer.css);
 @import url(./animations/IamText.css);
 
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;500;600;700;800&display=swap');
-
-@font-face {
-    font-family: 'Panic Stricken';
-    src: url(../fonts/PanicStricken.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Krona+One&family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 
 :root {
@@ -25,7 +20,7 @@
     --cor-branco: #FFFFFF;
     --cor-cinza: #535353;
     --cor-amareloHover: #ffc337;
-    --fonte-rabisco: 'Panic Stricken';
+    --fonte-rabisco: 'Caveat', cursive;
     --fonte-krona: 'Krona One', sans-serif;
     --fonte-montserrat: 'Montserrat', sans-serif;
     --montserrat-regular: 400;

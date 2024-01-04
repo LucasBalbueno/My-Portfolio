@@ -58,7 +58,7 @@
 .projects__rabisco {
     font-family: var(--fonte-rabisco);
     color: var(--cor-branco);
-    font-size: 20px;
+    font-size: 25px;
     margin: .5rem 0 0 1rem;
 }
 
@@ -163,25 +163,25 @@
 }
 
 .pokedex {
-    background-image: url(../imgs/projects/PokedexBG.jpg);
+    background-image: url(../imgs/PokedexBG.jpg);
 }
 
 .academy {
-    background-image: url(../imgs/projects/FitBG.jpg);
+    background-image: url(../imgs/FitBG.jpg);
 }
 
 .listaCompras {
-    background-image: url(../imgs/projects/ListaBG.jpg);
+    background-image: url(../imgs/ListaBG.jpg);
 }
 
 .QRcode {
-    background-image: url(../imgs/projects/QRcodeBG.jpg);
+    background-image: url(../imgs/QRcodeBG.jpg);
 }
 
 .login {
-    background-image: url(../imgs/projects/LoginBG.jpg);
+    background-image: url(../imgs/LoginBG.jpg);
 }
 
 .galeria {
-    background-image: url(../imgs/projects/GaleriaBG.jpeg);
+    background-image: url(../imgs/GaleriaBG.jpeg);
 }
