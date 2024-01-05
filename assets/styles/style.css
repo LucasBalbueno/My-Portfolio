@@ -45,3 +45,39 @@ body {
 a {
     text-decoration: none;
 }
+
+/* .cabecalho {
+    display: none;
+} */
+
+/* .menu__lista {
+    display: none;
+} */
+
+/* .container__principal {
+    display: none;
+} */
+
+#aboutme {
+    display: none;
+}
+
+.aboutme__more {
+    display: none;
+}
+
+.aboutme__tecnologies {
+    display: none;
+}
+
+#solutions {
+    display: none;
+}
+
+#contact {
+    display: none;
+}
+
+.rodape {
+    display: none;
+}

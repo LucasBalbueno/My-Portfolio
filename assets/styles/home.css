@@ -64,3 +64,33 @@
 .imagem__grupo {
     width: 22rem;
 }
+
+@media screen and (max-width: 600px) {
+    .container__principal {
+        flex-direction: column;
+        align-items: center;
+        padding: 7.5rem 2rem 1.5rem 2rem;
+        gap: 8rem;
+        height: 100%;
+    }
+
+    .texto__principal {
+        align-items: center;
+    }
+
+    .texto__principal-subTitulo {
+        font-size: 25px;
+    }
+
+    .texto__principal-titulo {
+        font-size: 48px ;
+    }
+
+    .texto__principal-texto {
+        text-align: center;
+    }
+
+    .imagem__grupo {
+        width: 20rem;
+    }
+}
