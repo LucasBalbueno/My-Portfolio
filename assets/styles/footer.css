@@ -17,3 +17,22 @@
     width: 1.5rem;
     margin-left: 1rem;
 }
+
+@media screen and (max-width: 600px) {
+    .rodape {
+        padding: 2rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .rodape__texto {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .rodape__midia {
+        width: 2rem;
+        margin-left: .5rem;
+    }   
+    
+}

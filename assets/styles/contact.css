@@ -119,3 +119,43 @@
     background-color: var(--cor-fundo);
     transition: 1s ease;
 }
+
+@media screen and (max-width: 600px) {
+    .container__contact {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .contact__content {
+        display: block;
+        flex-direction: column;
+        background-color: var(--cor-cinza);
+        background-image: none;
+        margin-top: 2rem;
+        height: 100%;
+        gap: 0;
+        text-align: center;
+
+        padding: 3rem 2rem;
+        border-radius: 30px;
+    }
+
+    .content__description {
+        align-items: center;
+        margin-bottom: 4rem;
+        width: 100%;
+    }
+
+    .description__title, .description__title-destaque {
+        text-align: center;
+    }
+
+    .description__text {
+        text-align: center;
+    }
+
+    .description__social {
+        margin-left: 0;
+    }
+    
+}

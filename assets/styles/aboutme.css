@@ -72,7 +72,7 @@
     font-style: italic;
 }
 
-.btn_download {
+.btn__download {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -191,4 +191,39 @@
     font-weight: var(--montserrat-semiBold);
     font-size: 17px;
     margin-top: .5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .container__aboutme {
+        padding: 2.5rem 2rem 0 2rem;
+        height: 100%;
+    }
+
+    .aboutme__more {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .aboutme-statics {
+        flex-direction: column;
+        gap: 2rem;
+        margin-right: 0;
+    }
+
+    .btn__download {
+        margin-left: 1.5rem;
+    }
+
+    .aboutme__tecnologies {
+        padding: 0;
+        margin: 4rem 0;
+    }
+
+    .titulo__fundo {
+        font-size: 40px;
+    }
+    
+    .titulo__frente, .titulo__frente-destaque {
+        font-size: 25px;
+    }
 }
