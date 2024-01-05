@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 600px) {
     .container__solutions {
-        padding: 3rem 2rem 0 2rem;
+        padding: 7rem 2rem 0 2rem;
     }
 
     .solutions__subtitulo {
@@ -119,11 +119,15 @@
     }
 
     .tema__design {
-        padding: 5rem 0 2rem 0;
+        padding: 5rem 0 0 0;
     }
 
     .tema__reponsividade {
-        padding: 6rem 2rem;
+        padding: 8rem 2rem 0 2rem;
+    }
+
+    .tema__animations {
+        padding: 7rem 0 0 0;
     }
 
     .animations__instructions {

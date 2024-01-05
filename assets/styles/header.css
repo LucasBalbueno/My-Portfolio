@@ -94,8 +94,11 @@
     .cabecalho__menu-hamburguer {
         display: flex;
         align-items: center;
-        gap: 2rem;
-        position: relative;
+        justify-content: space-between;
+        background-color: var(--cor-fundo);
+        position: fixed;
+        z-index: 1;
+        width: 100%;
     }
 
     .btn__menu-hamburguer {
@@ -109,7 +112,6 @@
     }
     
     .button__projects-hamburguer {
-        padding: 1rem;
         background: transparent;
         border: 2px solid var(--cor-amarelo);
         color: var(--cor-amarelo);
@@ -118,6 +120,8 @@
         font-family: var(--fonte-krona);
         font-size: 17px;
         margin-top: .3rem;
+        position: absolute;
+        right: 1.5rem;
     }
 
     .button__projects-hamburguer-activate {
@@ -127,29 +131,17 @@
     .menu__lista-hamburguer-activate {
         display: block;
         position: absolute;
-        left: 2rem;
+        left: 0;
         top: 100%;
+        background-color: var(--cor-amarelo);
+        box-shadow: 4px 4px 15px rgb(0, 0, 0);
     }
     
     .lista__item-hamburguer {
-        margin: 1rem 0;
+        padding: 1.2rem 2rem;
     }
     
     .lista__link-hamburguer {
         color: var(--cor-branco);
-    }
-
-    .menu__haburguer-fundo {
-        position: absolute;
-    }
-    
-    .menu__haburguer-fundo-activate {
-        display: block;
-        background-color: var(--cor-amarelo);
-        height: 21rem;
-        width: 70vw;
-        overflow: hidden;
-        position: absolute;
-        z-index: 1;
     }
 }

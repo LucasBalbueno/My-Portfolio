@@ -195,7 +195,7 @@
 
 @media screen and (max-width: 600px) {
     .container__aboutme {
-        padding: 2.5rem 2rem 0 2rem;
+        padding: 7rem 2rem 0 2rem;
         height: 100%;
     }
 
@@ -216,7 +216,7 @@
 
     .aboutme__tecnologies {
         padding: 0;
-        margin: 4rem 0;
+        margin: 4rem 0 0 0;
     }
 
     .titulo__fundo {
