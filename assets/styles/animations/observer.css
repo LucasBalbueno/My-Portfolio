@@ -65,6 +65,43 @@
 }
 
 @media screen and (max-width: 600px) {
+    .hiddenUp {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        transition: all 1s ease;
+    }
+    
+    .hiddenUp2 {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        transition: all 5s;
+    }
+    
+    .hiddenUp3 {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        transition: all 10s;
+    }
+    
+    .hiddenDown {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        transition: all 1s ease;
+    }
+    
+    .hiddenDown2 {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        transition: all 5s ease;
+    }
+    
+    .hiddenDown3 {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        transition: all 10s ease;
+    }
+
+
     .hiddenRight {
         opacity: 1;
         transform: translate3d(0, 0, 0);
@@ -87,5 +124,17 @@
         opacity: 1;
         transform: translate3d(0, 0, 0);
         transition: all 5s ease;
+    }
+
+    .hiddenDownResponsive {
+        opacity: 0;
+        transform: translate3d(0, -100px, 0);
+        transition: all 1s ease;
+    }
+
+    .show {
+        opacity: 1;
+        transform: translateZ(0);
+        transition: all 1s ease;
     }
 }
