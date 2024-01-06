@@ -72,6 +72,7 @@
 
 .projects__cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 5rem;
 }
@@ -184,4 +185,55 @@
 
 .galeria {
     background-image: url(../imgs/GaleriaBG.jpeg);
+}
+
+
+@media screen and (max-width: 600px) {
+    .container__projects {
+        padding: 6rem 2rem 0 2rem;
+        height: 100%;
+        margin: 0;
+    }
+
+    .projects__titulo {
+        padding: 0;
+    }
+    
+    .titulo__texto {
+        font-size: 22px;
+        font-weight: var(--montserrat-medium);
+    }
+
+    .titulo__menor {
+        font-size: 35px;
+    }
+    
+    .titulo__maior {
+        font-size: 40px;
+    }
+
+    .projects__instructions {
+        display: none;
+    }
+
+    .container__image {
+        width: 80vw;
+        margin: 1rem 0;
+    }
+
+    .projects__cards {
+        margin-bottom: 0;
+    }
+
+    .projects__card {
+        margin-bottom: 2rem;
+    }
+
+    .container__projects-principais {
+        padding: 5rem 0 0 0;
+    }
+    
+    .container__projects-extras {
+        padding: 5rem 0 0 0;
+    }
 }
