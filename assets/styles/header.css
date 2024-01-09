@@ -1,20 +1,7 @@
-.cabecalho__tarja {
-    text-align: center;
-    background-color: var(--cor-amarelo);
-    box-shadow: 0px 15px 6px 0px rgba(0, 0, 0, 0.20);
-}
-
-.tarja__texto {
-    color: var(--cor-branco);
-    font-weight: var(--montserrat-bold);
-    font-size: 13px;
-    padding: .4rem;
-}
-
 .menu__lista {
     display: flex;
     align-items: center;
-    padding: 3rem 7rem;
+    padding: 3rem 0;
 }
 
 .lista__link {
@@ -86,7 +73,7 @@
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .menu__lista {
         display: none;
     }

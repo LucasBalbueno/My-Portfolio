@@ -1,13 +1,20 @@
 .container__principal {
-    height: 100vh;
     display: flex;
-    padding: 1.2rem 7rem;
+    height: 33.5rem;
+    width: calc(100vw - 1.2rem);
     align-items: flex-start;
-    justify-content: space-between;
-    background-image: url(../imgs/Tecnology1.png);
-    background-repeat: no-repeat;
-    background-size: 60rem 20rem;
-    background-position-y: 14.5rem;
+    justify-content: center;
+    gap: 12%;
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+.principal__fundo {
+    width: 70vw;
+    position: absolute;
+    left: 0px;
+    bottom: -60px;
+    z-index: -1;
 }
 
 .texto__principal {
@@ -65,17 +72,22 @@
     width: 22rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .container__principal {
+        height: auto;
+        width: 100vw;
+        display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 7.5rem 2rem 0 2rem;
-        gap: 8rem;
-        height: 100%;
+        padding-top: 7rem;
+        background-position-y: 23rem;
+        margin-bottom: 3rem;
+        gap: 5rem;
     }
 
     .texto__principal {
         align-items: center;
+        margin: 0;
     }
 
     .texto__principal-subTitulo {
@@ -90,7 +102,43 @@
         text-align: center;
     }
 
+    .principal__Apresentacao {
+        margin: 0;
+    }
+
     .imagem__grupo {
         width: 20rem;
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+    .principal__fundo {
+        width: 70vw;
+        left: 0px;
+        bottom: -110px;
+    }
+}
+
+
+@media screen and (min-width: 1800px) {
+    .principal__fundo {
+        width: 65vw;
+        left: 0px;
+        bottom: -110px;
+    }
+}
+
+@media screen and (min-width: 2600px) {
+    .principal__fundo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .principal__fundo {
+        width: 100vw;
+        left: 0px;
+        bottom: -160px;
     }
 }

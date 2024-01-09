@@ -1,11 +1,13 @@
 .container__solutions {
-    padding: 4rem 10rem 0 10rem;
+    padding-top: 4rem;
 }
 
 .solution__tema {
     display: flex;
     align-items: center;
     gap: 7rem;
+
+    width: 65rem;
 }
 
 .tema__texto {
@@ -95,9 +97,9 @@
     margin: 1rem 0 0 2rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .container__solutions {
-        padding: 7rem 2rem 0 2rem;
+        padding-top: 7rem;
     }
 
     .solutions__subtitulo {
@@ -107,10 +109,12 @@
     .solution__tema {
         flex-direction: column;
         gap: 3rem;
+
+        width: auto;
     }
 
     .solutions__titulo-fundo {
-        font-size: 23px;
+        font-size: 20px;
         letter-spacing: .5rem;
     }
     
@@ -119,15 +123,16 @@
     }
 
     .tema__design {
-        padding: 5rem 0 0 0;
+        padding: 5rem 1rem 0 1rem;
     }
 
     .tema__reponsividade {
-        padding: 8rem 2rem 0 2rem;
+        padding: 8rem 1rem 0 1rem;
+        /* display: none; */
     }
 
     .tema__animations {
-        padding: 7rem 0 0 0;
+        padding: 7rem 1rem 0 1rem;
     }
 
     .animations__instructions {

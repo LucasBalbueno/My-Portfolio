@@ -46,6 +46,25 @@ a {
     text-decoration: none;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 900px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+    }
+}
+
+/* .cabecalho__menu-hamburguer {
+    display: none;
+} */
+
 /* .cabecalho {
     display: none;
 } */
