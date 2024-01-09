@@ -37,3 +37,9 @@
         margin: 0 0 .5rem 2.5rem;
     }
 }
+
+@media screen and (max-width: 340px) {
+    .textos__IamText{
+        margin: 0 0 .5rem 1rem;
+    }
+}

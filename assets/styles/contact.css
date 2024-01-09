@@ -2,7 +2,6 @@
     text-align: center;
     padding: 4rem 0;
     margin-bottom: 4rem;
-
     width: 65rem;
 }
 
@@ -162,4 +161,32 @@
         margin-left: 0;
     }
     
+}
+
+@media screen and (min-width: 900px) and (max-width: 1300px)  {
+    .container__contact {
+        width: 55rem;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .container__contact {
+        flex-direction: column;
+        padding: 7rem 0 2rem 0;
+        margin-bottom: 3rem;
+
+        width: auto;
+    }
+    .container__contact {
+        width: 15rem;
+    }
+
+    .form__box {
+        width: 10rem;
+    }
+
+    .form__btn {
+        width: 12.4rem;
+    }
+
 }

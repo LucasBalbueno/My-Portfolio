@@ -233,3 +233,31 @@
         font-size: 25px;
     }
 }
+
+@media screen and (min-width: 900px) and (max-width: 1300px)  {
+    .container__aboutme {
+        width: 55rem;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .container__aboutme {
+        padding: 7rem 1rem 0 1rem;
+    }
+
+    .titulo__fundo {
+        font-size: 25px;
+    }
+    
+    .titulo__frente, .titulo__frente-destaque {
+        font-size: 15px;
+    }
+
+    .infos__lista {
+        font-size: 12px;
+    }
+
+    .btn__download {
+        margin-left: 0;
+    }
+}
