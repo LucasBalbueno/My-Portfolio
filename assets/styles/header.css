@@ -1,7 +1,12 @@
+.cabecalho {
+    height: 5rem;
+}
+
 .menu__lista {
     display: flex;
     align-items: center;
     padding: 3rem 0;
+    justify-content: center;
 }
 
 .lista__link {
