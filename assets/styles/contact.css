@@ -90,6 +90,7 @@
     color: var(--cor-branco);
     padding: 1rem;
     box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.25);
+    resize: none;
 }
 
 .form__box::placeholder {
