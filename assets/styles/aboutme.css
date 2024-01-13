@@ -103,12 +103,12 @@
     background-position: center;
 }
 
-.btn_download:hover {
+.btn__download:hover {
     background-color: var(--cor-amarelo);
     transition: .5s ease;
 }
 
-.btn_download:hover > .aboutme__download-icon {
+.btn__download:hover > .aboutme__download-icon {
     background-color: var(--cor-branco);
     background-image: url(../imgs/icons/DownloadIconHover.svg);
     transition: .5s ease;
