@@ -21,7 +21,7 @@
     font-size: 50px;
     opacity: .1;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     letter-spacing: .7rem;
 }
 
@@ -31,7 +31,7 @@
 
 .titulo__frente, .titulo__frente-destaque {
     font-size: 30px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .titulo__frente-destaque {
